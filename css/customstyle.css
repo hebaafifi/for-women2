@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto&display=swap');
+
+
+body{
+    padding: 0;
+    margin: 0;
+    
+    }
+
+:root {
+ --primery-color : #b56576;
+  --sacendry-color : #f8e4d9;
+}
+.dark-theme{
+    --primery-color : black;
+  --sacendry-color : #fff;
+
+}
+/*************************** start nav  css ************************************/
+.navbar-brand{
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5rem;
+    color: var(--sacendry-color) !important;
+    
+}
+nav{
+    background-color: var(--primery-color);
+
+}
+.navbar-nav a{
+    
+    color: var(--sacendry-color) !important;
+    font-size: 1rem; 
+    font-weight: bold;
+    margin-left: 20px;
+}
+.navbar-nav a:hover{
+    color:hsla(9, 48%, 95%, 0.856) ;
+}
+.fbar{
+    color: var(--sacendry-color);
+    font-size: 30px;
+
+}
+.navbar-toggler{
+    color:var(--sacendry-color);
+    
+
+}
+
+#icon{
+    width: 50px;
+    cursor: pointer;
+    
+}
+
+/********************************** end nav  css **************************************/
+
+/********************************** start banner css *********************************/
+.ml6 {
+    position: relative;
+  }
+  
+  .ml6 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+  }
+  
+  .ml6 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+
+.sayhello{
+    font-family: 'Pacifico', cursive;
+    font-family: 'Permanent Marker', cursive;
+    background-color:var(--sacendry-color);
+    color: var(--primery-color);;
+    padding: 5rem;
+    
+    
+    
+    }
+    
+    section{
+        width: 100%;
+       
+        
+    }
+    /*********************************** end banner css ****************************************/
+
+    /********************************** start Food Recipes css *********************************/
+ .food-text{
+    padding-top: 5rem;
+ }
+h2{
+        font-family: 'Pacifico', cursive;
+        color:var(--sacendry-color);
+        background-color:var(--primery-color);
+        padding: 10px;
+
+    
+    }
+.mybtn{
+    background-color: var(--primery-color);
+    color:var(--sacendry-color) ;
+    font-size: 1.5rem;
+    border-radius: 30px;
+    border: none;
+    padding: 0.5em;
+    
+
+} 
+a{
+    text-decoration: none;
+}
+.mybtn:hover{
+     
+    color:hsla(21, 70%, 91%, 0.795);
+}
+/********************************** End Food Recipes css *********************************/
+
+/********************************** Start TO do List css *********************************/
+
+#TOdoList{
+    background-color:var(--sacendry-color) ;
+    margin-top: 30px;
+}
+.todo-text{
+    padding-top: 5rem;
+
+}
+ .tasklist path{
+    fill: transparent;
+    stroke: 10;
+    stroke:var(--primery-color);
+    stroke-dasharray: 1560;
+    stroke-dashoffset: 0;
+    animation: animat-tasklist 3s  infinite linear forwards;
+    
+}
+ 
+
+@keyframes animat-tasklist {
+    0%{
+        stroke-dashoffset: 0;
+    }
+    40%{
+        stroke-dashoffset: 1560;
+    }
+    80%{
+        stroke-dashoffset: 3120;
+        fill: transparent;
+    }
+    100%{
+        stroke-dashoffset: 3120;
+        fill:var(--primery-color);
+    }
+
+}
+.trash{
+    float: right;
+    color: var(--primery-color);
+    cursor: pointer;
+}
+.form-control{
+    border: none;
+    color: var(--primery-color);
+    font-size: 20px;
+}
+.form-control:focus{
+    box-shadow: rgb(181, 101, 118,0.596) 0px 7px 29px 0px;;
+}
+/********************************** End TO do List css *********************************/
+  
+/********************************** start Ideal Weight css *********************************/
+.ideal-item{
+    font-family: 'Pacifico', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    color: var(--primery-color);
+    font-weight: 600;
+    
+}
+.form-control{
+    background-color:var(--primery-color);
+}
+.ideal-text{
+    padding-top: 5rem;
+    
+}
+.form-label{
+    color: var(--primery-color);
+    font-weight: 900;
+}
+.resultbox{
+    background-color:var(--primery-color);
+    color:var(--sacendry-color);
+    font-size: 20px;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Roboto', sans-serif;
+
+}
+/********************************** End Ideal Weight css *********************************/
+
+/********************************** start play time css *********************************/
+.play-text{
+    padding-top: 5rem;
+}
+#playTime{
+    background-color:var(--sacendry-color) ;
+    margin-top: 30px;
+   
+
+}
+.card-text{
+    font-size: 20px;
+}
+
+/********************************** End play time css *********************************/
+
+/********************************** start footer css *********************************/
+footer{
+    background-color:var(--primery-color);
+    color:var(--sacendry-color);
+    font-family: 'Pacifico', cursive;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+
+}
+
+
+  
+  
+  
